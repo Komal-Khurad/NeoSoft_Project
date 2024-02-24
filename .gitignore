@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+posts_frontend/node_modules
+posts_frontend/.pnp
+posts_frontend/.pnp.js
+
+# testing
+posts_frontend/coverage
+
+# production
+posts_frontend/build
+
+# misc
+posts_frontend/.DS_Store
+posts_frontend/.env.local
+posts_frontend/.env.development.local
+posts_frontend/.env.test.local
+posts_frontend/.env.production.local
+
+posts_frontend/npm-debug.log*
+posts_frontend/yarn-debug.log*
+posts_frontend/yarn-error.log*
+
+#Server Dependencies
+Posts_Server/node_modules
+Posts_Server/jspm_packages/
+Posts_Server/bower_components/
+
+Posts_Server/npm-debug.log
+Posts_Server/yarn-error.log
+Posts_Server/yarn-debug.log
+Posts_Server/lerna-debug.log
+Posts_Server/.serverless
+
+Posts_Server/.env
+Posts_Server/.env.test
+Posts_Server/.custom-env
+
+# cache files
+
+Posts_Server/.yarn/cache
+Posts_Server/.yarn/unplugged
+Posts_Server/.yarn/install-state.gz
+Posts_Server/.eslintcache
+Posts_Server/.cache
+Posts_Server/.parcel-cache
+Posts_Server/.npm
+
+# vs editor-related files
+
+Posts_Server/.vscode-test
+Posts_Server/.vscode
